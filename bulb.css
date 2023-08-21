@@ -1,0 +1,236 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   
+}
+#bdy{
+  background-image:linear-gradient(75deg,rgb(231, 14, 14),blue,pink);
+  height: 100vh;
+}
+#container{
+    position: absolute;
+    width: 50%;
+    height: 80vh;
+    background-color: #000;
+    left: 400px;
+    top: 70px;  
+    position: relative; 
+  
+    border-radius: 10px;
+  }
+  #a{
+    position: absolute;
+    width: 100px;
+    height:30px ;
+    left: 150px;
+    bottom: 100px;
+    background-color: red;
+   
+    border:  3px white solid;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  #b{
+    position: absolute;
+    width: 100px;
+    height:30px ;
+    left: 150px;
+    bottom: 150px;
+    background-color: red;
+   
+    border:  3px white solid;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+ #nolight{
+    position: absolute;
+    width: 200px;
+    height: 310px;
+  left: 300px;
+  top: 100px;
+    z-index: 2;
+ }
+ #light{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+  left: 210px;
+  top: 45px;
+  z-index: 2;
+  rotate: -3deg;
+  display: none;
+   
+  
+ }
+ #head{
+  
+  margin-top: -400px;
+  margin-left: 60px;
+ 
+  color: white;
+ }
+
+ @media screen and (max-width:600px)
+ {
+#bdy{
+  background-image:linear-gradient(75deg,rgb(231, 14, 14),blue,pink);
+  
+  background-repeat: no-repeat;
+}
+#container{
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    background-color: #000;
+    left: 400px;
+    top: 70px;  
+    position: relative; 
+  
+    border-radius: 10px;
+  }
+  #a{
+    position: absolute;
+    width: 100px;
+    height:30px ;
+    left: 150px;
+    bottom: 100px;
+    background-color: red;
+   
+    border:  3px white solid;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  #b{
+    position: absolute;
+    width: 100px;
+    height:30px ;
+    left: 150px;
+    bottom: 150px;
+    background-color: red;
+   
+    border:  3px white solid;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+ #nolight{
+    position: absolute;
+    width: 200px;
+    height: 310px;
+  left: 300px;
+  top: 100px;
+    z-index: 2;
+ }
+ #light{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+  left: 210px;
+  top: 45px;
+  z-index: 2;
+  rotate: -3deg;
+  display: none;
+   
+  
+ }
+ #head{
+  
+  margin-top: -400px;
+  margin-left: 60px;
+ 
+  color: white;
+ }
+
+ }
+/*mobile vesrion*/
+
+ @media  screen and (max-width:360px) 
+ {
+  
+    #bdy{
+      background-image:linear-gradient(75eg,rgb(231, 14, 14),blue,pink);
+   
+      width: 100%;
+     
+     
+    }
+    #container{
+      position: absolute;
+      width: 80%;
+      height: 50vh;
+      background-color: #000;
+      left: 35px;
+      top: 150px;  
+      position: relative; 
+    
+      border-radius: 10px;
+    }
+    #a{
+      position: absolute;
+      width: 100px;
+      height:30px ;
+      left: 40px;
+      bottom: 50px;
+      background-color: red;
+     
+      border:  3px white solid;
+      color:white;
+      font-weight: bold;
+      border-radius: 10px;
+    } 
+     #b{
+      position: absolute;
+      width: 100px;
+      height:30px ;
+      left: 40px;
+      bottom: 100px;
+      background-color: red;
+     
+      border:  3px white solid;
+      color:white;
+      font-weight: bold;
+      border-radius: 10px;
+    }
+    #nolight{
+      position: absolute;
+      width: 110px;
+      height: 180px;
+    left: 90px;
+    top: 40px;
+      z-index: 2;
+   }
+  
+   #light{
+    position: absolute;
+    width: 220px;
+    height: 230px;
+  left: 40px;
+  top: 10px;
+  z-index: 2;
+  rotate: -3deg;
+  display: none;
+   
+  
+ }
+ #head{
+  
+  margin-top: -400px;
+  margin-left: 60px;
+ 
+  color: white;
+ }
+
+ #head{
+  
+  margin-top: -300px;
+  margin-left: 85px;
+ 
+  color: white;
+ }
+
+
+
+ }

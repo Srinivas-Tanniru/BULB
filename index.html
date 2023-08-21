@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bulb.css">
+</head>
+<body id="bdy">
+    <div id="container">
+   <button id="a" onclick="lightoff()" >switch off</button>
+   <button id="b" onclick="lighton()" >switch on</button>
+
+   <img src="./assets/nobulb.png" alt="bulb" id="nolight">
+   <img id="light" src="./assets/lightbulb.png" alt="bulb1" >
+</div>
+<h1 id="head"></h1>
+<script>
+ 
+   function lightoff()
+   {
+     var lighton=document.getElementById("a")
+     document.getElementById("nolight").style.display="block"
+     document.getElementById("light").style.display="none"
+   document.getElementById("head").innerHTML="LIGHT OFF"
+   
+   }
+   function lighton()
+   {
+     var lighton=document.getElementById("b")
+     document.getElementById("nolight").style.display="none"
+     document.getElementById("light").style.display="block"
+     document.getElementById("head").innerHTML="LIGHT ON"
+     
+   }
+   
+
+</script>
+</body>
+</html>
