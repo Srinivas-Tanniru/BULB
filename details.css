@@ -311,7 +311,7 @@ transition:  background-color 1s;
     }#logoT{
         position: absolute;
         width: 2vw;
-        background-image: url(./../ASSESTS/twitter.png);
+        background-image: url(./ASSESTS/twitter.png);
         background-repeat: no-repeat;
      background-size: 100%;
         height: 20vh;
