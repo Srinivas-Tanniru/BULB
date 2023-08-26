@@ -306,7 +306,7 @@
         }#logoT{
             position: absolute;
             width: 2vw;
-            background-image: url(./../ASSESTS/twitter.png);
+            background-image: url(./ASSESTS/twitter.png);
             background-repeat: no-repeat;
          background-size: 100%;
             height: 20vh;
@@ -368,7 +368,7 @@
             position: absolute;
             width: 50px;
             height: 50px;
-            background-image: url(./../ASSESTS/arrow.png);
+            background-image: url(./ASSESTS/arrow.png);
             background-size: 100%;
         box-shadow: 3px 5px 8px black;
         background-color: #d3da0c;

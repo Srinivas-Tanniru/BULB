@@ -17,7 +17,7 @@
             height: 300px;
             position: absolute;
           /* background-color: antiquewhite;*/
-            background-image:url(./../ASSESTS/./eeelogo.png) ;  
+            background-image:url(./ASSESTS/./eeelogo.png) ;  
             background-size: 400px;
             background-repeat: no-repeat; 
             background-position: center;
@@ -273,7 +273,7 @@
         #logof{
             position: absolute;
             width: 3vw;
-            background-image: url(./../ASSESTS/facebooklogo.png);
+            background-image: url(./ASSESTS/facebooklogo.png);
             background-repeat: no-repeat;
          background-size: 100%;
             height: 20vh;
@@ -290,7 +290,7 @@
         #logoI{
             position: absolute;
             width: 2vw;
-            background-image: url(./../ASSESTS/instagram.svg);
+            background-image: url(./ASSESTS/instagram.svg);
             background-repeat: no-repeat;
          background-size: 100%;
             height: 20vh;
@@ -307,7 +307,7 @@
         }#logoT{
             position: absolute;
             width: 2vw;
-            background-image: url(./../ASSESTS/twitter.png);
+            background-image: url(./ASSESTS/twitter.png);
             background-repeat: no-repeat;
          background-size: 100%;
             height: 20vh;
@@ -369,7 +369,7 @@
             position: absolute;
             width: 50px;
             height: 50px;
-            background-image: url(./../ASSESTS/arrow.png);
+            background-image: url(./ASSESTS/arrow.png);
             background-size: 100%;
         box-shadow: 3px 5px 8px black;
         background-color: #d3da0c;

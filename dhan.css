@@ -11,7 +11,7 @@
     width: 100%;
     position: absolute;
     height: 100vh;
-    background-image: url(./../ASSESTS/clg\ image.jpg);
+    background-image: url(./ASSESTS/clg\ image.jpg);
     background-size: 100%;
       background-repeat: no-repeat;
       box-shadow: 3px 3px 5px black;
@@ -97,7 +97,7 @@
     position: absolute;
     top: 10px;
     width: 50vw;   height: 100vw;
-    background-image:url(./../ASSESTS/college\ logo.png);
+    background-image:url(./ASSESTS/college\ logo.png);
 
     background-repeat: no-repeat;
     background-size: 150px 150px;
