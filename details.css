@@ -101,7 +101,7 @@
 #logoI{
     position: absolute;
     width: 2vw;
-    background-image: url(./../ASSESTS/instagram.svg);
+    background-image: url(./ASSESTS/instagram.svg);
     background-repeat: no-repeat;
  background-size: 100%;
     height: 20vh;
@@ -294,7 +294,7 @@ transition:  background-color 1s;
     #logoI{
         position: absolute;
         width: 2vw;
-        background-image: url(./../ASSESTS/instagram.svg);
+        background-image: url(./ASSESTS/instagram.svg);
         background-repeat: no-repeat;
      background-size: 100%;
         height: 20vh;
